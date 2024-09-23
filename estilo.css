@@ -1,0 +1,55 @@
+html{
+    font-family: "kanit", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+body{
+    margin: 0;
+    background-color: aliceblue;
+}
+header{
+    background-color: rgb(68, 113, 236);
+    color: white;
+    text-align: center;
+    padding: 1rem 2rem;
+}
+.section {
+    padding: 0,5rem;
+    height: 400px;
+    width: 500px;
+    margin: 0 auto;
+    background-color: rgb(223, 215, 215);
+    border-radius: 9px;
+}
+section:hover{
+    box-shadow: 0 0.2rem 0.5rem #000000  ;
+}
+section h2{
+    text-align: center;
+}
+section, img {
+    text-align: center;
+}
+img{
+    height: 100px;
+    width: 300px;
+    border-radius: 6px;
+}
+img:hover{
+ transform: scale(2,4.3);
+ transition: 1s ease;
+}
+button {
+    border: none;
+    background-color: rgb(223, 215, 215);
+}
+button a {
+    color: red;
+    text-decoration: dashed;
+}
+footer{
+    background-color: rgb(15, 15, 15);
+    color: white;
+    text-align: center;
+    padding: 2rem;
+}
