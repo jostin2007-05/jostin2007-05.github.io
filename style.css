@@ -1,0 +1,75 @@
+video {
+    text-align: left;
+    animation: 25s;
+    opacity: 10;
+}
+body {
+    background-color: #000000;
+}
+h1,h2 {
+    text-align: center;
+    color:aliceblue;
+}
+.texto1 {
+    opacity: 0;
+    animation: aparecer 150s forwards;
+}
+@keyframes aparecer {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+.texto2 {
+    opacity: 0;
+    animation: aparecer 150s forwards;
+}
+@keyframes aparecer {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+p{
+    color: aliceblue;
+}
+img {
+    height: 250px;
+    width: 285px;
+}
+.video1 {
+    opacity: 0;
+    animation: aparecer 10s forwards;
+}
+@keyframes aparecer {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+.video2 {
+    opacity: 0;
+    animation: aparecer 40s forwards;
+}
+@keyframes aparecer {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+.video3 {
+    opacity: 0;
+    animation: aparecer 80s forwards;
+}
+@keyframes aparecer {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+.foto1 {
+    opacity: 0;
+    animation: aparecer 25s forwards;
+}
+@keyframes aparecer {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+.foto2 {
+    opacity: 0;
+    animation: aparecer 65s forwards;
+}
+@keyframes aparecer {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
